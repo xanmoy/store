@@ -1,8 +1,12 @@
+import Link from "next/link";
+
 export default function Header() {
     return (
-        <header className="bg-gray-800 text-white p-4">
+        <header className="bg-zinc-950 text-white p-4">
             <div className="container mx-auto">
-                <h1 className="text-2xl font-bold">My Play Store</h1>
+                <Link href="/" className="text-2xl font-bold">
+                    XStore
+                </Link>
             </div>
         </header>
     );
